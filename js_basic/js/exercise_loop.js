@@ -4,7 +4,7 @@
 var sum = 0
 for (var x = 1; x <= 100; x++) {
   if ((x % 2) == 0) {
-    sum += x; //sum = sum + x;の意味
+    sum += x; //sum = sum + x;と同じ
   }
 }
 console.log(sum);
